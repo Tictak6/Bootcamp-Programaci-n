@@ -3,65 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encuesta sobre Consumo Energético</title>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio de Innovaciones Tecnológicas 🧑🏻‍💻</title>
 </head>
 <body>
     <header class="header">
-        <h1>Encuesta sobre Consumo Energético</h1>
-
+        <h1>Portafolio de Innovaciones Tecnológicas</h1>
     </header>
-    <main class="form-container">
-        <form action="https://formspree.io/f/manbonjy" method="POST">
-            <!--GRUPO DE INFORMACION PERSONAL-->
-            <fieldset>
-                <legend>Información Personal</legend>
-                <label for="name">Nombre Completo:</label>
-                <input type="text" id="name" name="name" required placeholder="Ingrese su nombre completo"> 
+    
+    <div class="layout-grid">
+        <aside class="sidebar">
+            <h2>Menú de Navegación</h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos Solares</a></li>
+                <li><a href="#">Hidrógeno Verde</a></li>
+                <li><a href="#">Energía Eólica</a></li>
+                <li><a href="#">Transformación Productiva</a></li>
+                <li><a href="#">Paneles Solares Urbanos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </aside>
 
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required placeholder="Ingrese su correo electrónico">
-                <label for="location">Ubicación (Ciudad/País):</label>
-                <input type="text" id="location" name="location" required placeholder="Ingrese su ubicación">
-            </fieldset>
-                <!--GRUPO PREGUNTAS ACTUAL-->
-                <fieldset>
-                    <legend>Consumo Energético Actual</legend>
-                    <label for="energy_source">Fuentes de Energía</label>
-                    <select name="energy_source" id="energy_source" required>
-                        <option value="electricidad">Seleccione una opción</option>
-                         <option value="">Electricidad</option>
-                          <option value="gas">Gas Natural</option>
-                           <option value="solar">Energía Solar</option>
-                            <option value="eolica">Energía Eólica</option>
-                             <option value="otra">Otra</option>
-                    </select>
-                    <label for="montly_consumption">Consumo Mensual (Kwh):</label>
-                    <input type="number" id="montly_consumption" name="montly_consumption"
-                    min="100" placeholder="Ingrese su consumo mensual" required
-                    title="El consumo promedio por hogar es de 157KW">
-                </fieldset>
-                <!--GRUPO DE INTERES DE ENERGIAS RENOVABLES-->
-                <fieldset>
-                    <legend>Interés en Energías Renovables</legend>
-                    <select name="interest_level" id="interest_level" required>
-                    <label for="interest_level" id="interest_level" required></label>
-                    <option value="">Seleccione una opción</option>
-                    <option value="alto">Alto</option>
-                    <option value="medio">Medio</option>
-                    <option value="bajo">Bajo</option>
-                    </select>
-                <label for="adoption_interest">Disposición a Adoptar Energías Renovables</label>
-                <input type="radio" id="yes" name="adoption_interest" value="si" required>Si
-                <input type="radio" name="adoption_interest" value="no">No
-                </fieldset>
+        <main class="portfolio">
+            <section class="item">
+                <h2>Proyecto Solar</h2>
+                <p>Descripción de un innovador proyecto de energía solar en el norte del país que busca incrementar la generación renovable.</p>
+            </section>
+               
+            <section class="item">
+                <h2>Hidrógeno Verde</h2>
+                <p>Desarrollo de Infraestructura para la producción de Hidrógeno Verde como combustible limpio para la industria.</p>
+            </section>
+        
+            <section class="item">
+                <h2>Parque Eólico</h2>
+                <p>Implementación de un parque eólico con nuevas tecnologias que mejoran la eficiencia en los procesos de generación.</p>
+            </section>
 
-                <button type="submit">Enviar Encuesta</button>
-
-        </form>
-    </main>
-    <footer class="footer">
-        <p>Gracias por apoyar en este encuesta y la transición hacía energías más sostenibles</p>
+            <section class="item">
+                <h2>Transformación Productiva</h2>
+                <p>Innovación tecnológica aplicada a la transformación productiva en comunidades rurales.</p>
+            </section>            
+ 
+            <section class="item">
+                <h2>Paneles Solares Urbanos</h2>
+                <p>Proyectos de paneles solares en áreas urbanas para maximizar el aprovechamiento de energía en las ciudades.</p>
+            </section>
+        </main>        
+    </div>
+    
+    <footer>
+            Creado por Julián Giraldo <a href="mailto:julian.giraldoo@udea.edu.co" class="email">julian.giraldoo@udea.edu.co</a> - Bootcamp Talento Tech Region 2 - 2025
     </footer>
 </body>
 </html>
