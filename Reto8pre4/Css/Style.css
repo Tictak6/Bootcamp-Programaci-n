@@ -1,0 +1,34 @@
+body{
+    background-color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: #62c49e;
+    text-align: center;
+}
+
+.container{
+    width:40%;
+    margin:20px auto;
+}
+
+#number1, #number2{
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+#addButton{
+    padding: 10px 5px;
+    width:10%;
+    background-color: #65aa90;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#resultText{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3f7962;
+}
