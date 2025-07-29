@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <script src="https://cdn.jsdeLivr.net/npm/chart.js"></script>
+    <title>Visualización de Energías Renovables</title>
+</head>
+<body>
+<header class="header">
+<h1>Visualización  de Datos de Energías Renovables</h1>
+</header>
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Paises</a></li>
+        <li><a href="#">Regiones</a></li>
+        <li><a href="#">Evolución</a></li>
+    </ul>
+</nav>
+<div class="main-content">
+    <section class="grafics" id="countrygrafic">
+        <h2>Top 20 Países con Mayor Producción de Energía Renovable</h2>
+        <canvas id="graficoBarrasPaises"></canvas>
+    </section>
+        <section class="grafics" id="regiongrafic">
+        <h2>Producción de Energía por Regiones</h2>
+        <canvas id="graficoBarrasRegiones"></canvas>
+    </section>
+        <section class="grafics" id="comparativegrafic">
+        <h2>Comparativa de Producción de Energía Renovable - Colombia Vs Suramérica (1965 - 2021)</h2>
+        <canvas id="graficoLineasComparativo"></canvas>
+    </section>
+
+</div>
+<footer class="footer">
+<p>Creado por Tatiana Causado - 📭 <a class="correo" href="mailto:tatiana.causado@udea.edu.co">tatiana.causado@udea.edu.co</a> - Bootcamp Talento Tech Región 2 - 2025-2 </p>
+</footer>
+    <script src="Js/Scrips.js"></script>
+</body>
+</html>
